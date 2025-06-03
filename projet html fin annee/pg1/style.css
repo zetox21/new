@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fdf6f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background-color: #8B4513;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin: 0;
+}
+
+h2 {
+  color: #5a3211;
+  padding: 20px 20px 10px 20px;
+}
+
+p {
+  padding: 0 20px;
+  font-size: 1.1em;
+}
+
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #deb887;
+  color: #333;
+}
+
+td a {
+  text-decoration: none;
+  color: #8B4513;
+  font-weight: bold;
+}
+
+td a:hover {
+  text-decoration: underline;
+}
+
+body::before {
+  content: "";
+  background-image: url('./image/ecole.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+footer {
+    background-color: #f2f2f2;
+    color: #333;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    font-style: italic;
+    border-top: 1px solid #ccc;
+  }
+

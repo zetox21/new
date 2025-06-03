@@ -1,0 +1,133 @@
+ body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #f2f7fc, #d1e6f1);
+      color: #333;
+      animation: fadeIn 1s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h1, h3 {
+      text-align: center;
+      color: #2f3b56;
+      text-transform: uppercase;
+      margin: 40px 0 20px;
+    }
+
+    h1 {
+      font-size: 3em;
+    }
+
+    h3 {
+      font-size: 2em;
+    }
+
+    p {
+      font-size: 1.2em;
+      line-height: 1.8;
+      text-align: justify;
+      margin: 20px auto;
+      width: 80%;
+      max-width: 800px;
+      color: #444;
+    }
+
+    .accordion {
+      width: 80%;
+      max-width: 800px;
+      margin: 0 auto 40px;
+    }
+
+    .accordion-item {
+      margin-bottom: 10px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      background-color: #fff;
+    }
+
+    .accordion-button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      font-size: 18px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .accordion-button:hover {
+      background-color: #45a049;
+    }
+
+    .accordion-content {
+      display: none;
+      padding: 15px 20px;
+      background-color: #e9f7e5;
+      border-top: 1px solid #ccc;
+      animation: slideDown 0.3s ease-in-out;
+    }
+
+    @keyframes slideDown {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .image-container {
+      display: flex;
+      text-align: center;
+      gap: 20px;
+      margin: 30px auto;
+      max-width: 900px;
+      flex-wrap: wrap;
+    }
+
+    img {
+      width: 45%;
+      border-radius: 40px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    img:hover {
+      transform: scale(1.05);
+    }
+
+    ul {
+      width: 80%;
+      max-width: 800px;
+      margin: 20px auto;
+      font-size: 1.1em;
+      color: #444;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+	.tooltip {
+  position: relative;
+  display: inline-block;
+}
+	.tooltiptext {
+  display: none;
+  position: absolute;
+  background: black;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  top: 0;
+  left: 100%;
+  white-space: nowrap;
+}
+
+.tooltip:hover .tooltiptext {
+  display: block;
+}

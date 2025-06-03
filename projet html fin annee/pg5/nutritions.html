@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>La Nutrition des Chevaux</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>La Nutrition des Chevaux</h1>
+
+  <div class="accordion">
+    <div class="accordion-item">
+      <button class="accordion-button">Nutrition en été</button>
+      <div class="accordion-content">
+        <p>En été, les chevaux ont besoin d'une bonne hydratation et de repas plus légers, comme du foin de qualité et des légumes frais, pour rester en forme malgré la chaleur.</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <button class="accordion-button">Nutrition en hiver</button>
+      <div class="accordion-content">
+        <p>En hiver, leur alimentation doit être plus riche en calories pour leur permettre de conserver leur énergie et leur chaleur. On privilégiera le foin sec et les repas plus copieux.</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <button class="accordion-button">Suppléments</button>
+      <div class="accordion-content">
+        <p>Des suppléments comme les vitamines, les minéraux et les électrolytes peuvent être donnés en fonction des besoins spécifiques. Il est recommandé de consulter un vétérinaire pour un complément adapté.</p>
+      </div>
+    </div>
+  </div>
+
+  <h3>Reconnaître un bon foin</h3>
+  <p>Le foin de bonne qualité doit sentir frais, être sec, vert, et friable. Évitez tout foin présentant des moisissures (blanches, vertes ou noires), des insectes ou une odeur acide. Un foin trop jaune ou humide est à proscrire.</p>
+
+  <div class="image-container tooltip">
+    <img src="./image/foin.jpg" alt="Foin frais">
+    <img src="./image/foinpourri.jpg" alt="Foin pourri">
+	<span class="tooltiptext">Comparaison de foin</span>
+  </div>
+
+
+  <h3>Conséquences d’une mauvaise alimentation</h3>
+  <p>Une mauvaise nutrition peut avoir de graves conséquences sur la santé du cheval :</p>
+  <ul>
+    <li>Perte de poids importante et amaigrissement</li>
+    <li>Affaiblissement général, perte d’énergie</li>
+    <li>Sensibilité accrue aux maladies</li>
+    <li>Dans les cas graves, cela peut entraîner la mort</li>
+  </ul>
+
+  <div class="image-container">
+    <img src="./image/hover.jpg" alt="Cheval mal nourri">
+  </div>
+
+  <script>
+    const accordions = document.querySelectorAll('.accordion-button');
+    accordions.forEach(button => {
+      button.addEventListener('click', () => {
+        const content = button.nextElementSibling;
+        content.style.display = content.style.display === 'block' ? 'none' : 'block';
+      });
+    });
+  </script>
+
+</body>
+</html>

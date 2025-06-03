@@ -1,0 +1,9 @@
+Partie description : 
+
+C'est un site qui vous présentera le monde équestre dans la généralité 
+
+J ai choisi ce projet pour des raisons de facilité au niveau des images et c’est un sujet que je metrise asser bien 
+
+J ai eu de nombreuse difficulte a cause que de 1 je n ai me pas le html et css mais mes plus grandes difficulte on ete au niveau des animations et realise le carrousel 
+
+Pour conclure je suis asser content de ce que j ai fait meme si j aurais prefere m’y prendre un peu plus en avance pour pouvoir mieux faire encore. 
